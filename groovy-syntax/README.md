@@ -316,3 +316,7 @@ assert colors instanceof java.util.LinkedHashMap
 * [Groovy Syntax](http://www.groovy-lang.org/syntax.html)
 
 运行[syntax.groovy](https://github.com/ZhangQinglian/Cradle/blob/master/groovy-syntax/syntax.groovy)查看实例及运行结果
+
+
+安装Groovy参考如下:
+[http://www.groovy-lang.org/download.html](http://www.groovy-lang.org/download.html)

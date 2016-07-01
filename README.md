@@ -20,4 +20,7 @@ OK，还是老规矩先看官方是怎么介绍Gradle的：
 当然以上都是一些题外话，我要说这些的意思就是学习本身是一件持续的事情，不能觉得入了门就等于会了这门语言，更不能觉得会写hello world就入门了。
 
 ## 正式开坑
-01. 从群众中来，到群众中去
+
+### Groovy基础
+
+- [Groovy基本句法](https://github.com/ZhangQinglian/Cradle/tree/master/groovy-syntax)

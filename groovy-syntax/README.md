@@ -314,3 +314,5 @@ assert colors instanceof java.util.LinkedHashMap
 以上简单列举了Groovy的基本语法，想要深入学习的可以参考以下网址：
 
 * [Groovy Syntax](http://www.groovy-lang.org/syntax.html)
+
+运行[syntax.groovy](https://github.com/ZhangQinglian/Cradle/blob/master/groovy-syntax/syntax.groovy)查看实例及运行结果

@@ -133,9 +133,11 @@ task clean(type:Delete){
 
 WTF，见鬼了，跟踪classpath的结果如下：
 
+
 ```java
 Dependency add(String configurationName, Object dependencyNotation);
 ```
+
 竟然跟踪到了这个add方法，而且add方法还有两个参数，这是什么鬼？更诡异的是这个add方法属于DependencyHandler.java这个接口，对你没看错，是java接口。What the hell???
 
 冷静一下。。。

@@ -28,4 +28,4 @@ OK，还是老规矩先看官方是怎么介绍Gradle的：
 - [Groovy脚本与类](https://github.com/ZhangQinglian/Cradle/tree/master/groovy-structure)
 - [Groovy中的面向对象](https://github.com/ZhangQinglian/Cradle/tree/master/groovy-object)
 - [Groovy中的闭包](https://github.com/ZhangQinglian/Cradle/tree/master/groovy-closures)
-- [写出gradle风格的groovy代码]()
+- [写出gradle风格的groovy代码](https://github.com/ZhangQinglian/Cradle/tree/master/groovy-gradle_style)

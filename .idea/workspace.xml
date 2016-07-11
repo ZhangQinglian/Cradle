@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8032b01e-c14a-480f-8c4f-702b91228927" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy-closures/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy-gradle_style/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy-gradle_style/gradle_style.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Cradle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/groovy-closures/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/groovy-gradle_style/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle_style.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/groovy-gradle_style/gradle_style.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,6 +82,9 @@
         <option value="$PROJECT_DIR$/groovy-object/test.groovy" />
         <option value="$PROJECT_DIR$/groovy-object/README.md" />
         <option value="$PROJECT_DIR$/groovy-additional/additional.groovy" />
+        <option value="$PROJECT_DIR$/groovy-closures/README.md" />
+        <option value="$PROJECT_DIR$/groovy-gradle_style/README.md" />
+        <option value="$PROJECT_DIR$/groovy-gradle_style/gradle_style.groovy" />
       </list>
     </option>
   </component>
@@ -134,7 +149,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="groovy-closures" />
+              <option name="myItemId" value="groovy-gradle_style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,16 +170,7 @@
       <recent name="$PROJECT_DIR$/groovy-structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.additional">
-    <configuration default="false" name="variables1" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="Cradle" />
-      <setting name="path" value="file://$PROJECT_DIR$/groovy-structure/variables1.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/groovy-structure" />
-      <setting name="debug" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.gradle_style">
     <configuration default="false" name="variables2" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="Cradle" />
       <setting name="path" value="file://$PROJECT_DIR$/groovy-structure/variables2.groovy" />
@@ -198,6 +204,15 @@
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/groovy-additional" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gradle_style" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="Cradle" />
+      <setting name="path" value="file://$PROJECT_DIR$/groovy-gradle_style/gradle_style.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/groovy-gradle_style" />
       <setting name="debug" value="false" />
       <method />
     </configuration>
@@ -445,19 +460,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.variables1" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.variables2" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.test" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.additional" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.variables2" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.test" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.additional" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.gradle_style" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.additional" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.test" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.variables2" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.variables1" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.gradle_style" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.additional" />
+        <item index="2" class="java.lang.String" itemvalue="Groovy.test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.test" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.variables2" />
       </list>
     </recent_temporary>
   </component>
@@ -745,6 +760,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groovy-gradle_style/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groovy-gradle_style/gradle_style.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>

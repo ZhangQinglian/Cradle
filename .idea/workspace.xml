@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8032b01e-c14a-480f-8c4f-702b91228927" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/gradle-01-helloworld/gradle-01-helloworld.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/gradle.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/grra.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/gradle-01-helloworld/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/gradle-01-helloworld/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy-DSL/dsl.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/gradle-02-build-script-basics/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/gradle-02-build-script-basics/build.gradle" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/gradle-01-helloworld/gradle-01-helloworld.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/settings.gradle" afterPath="$PROJECT_DIR$/gradle/settings.gradle" />
     </list>
     <ignored path="Cradle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +17,8 @@
     <ignored path="$PROJECT_DIR$/gradle/build/" />
     <ignored path="$PROJECT_DIR$/gradle/gradle-01-helloworld/.gradle/" />
     <ignored path="$PROJECT_DIR$/gradle/gradle-01-helloworld/build/" />
+    <ignored path="$PROJECT_DIR$/gradle/gradle-02-build-script-basics/.gradle/" />
+    <ignored path="$PROJECT_DIR$/gradle/gradle-02-build-script-basics/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +43,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/gradle/gradle-01-helloworld">
           <activation />
         </task>
         <projects_view>
@@ -81,11 +80,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/gradle-02-build-script-basics/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradle/gradle-02-build-script-basics/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,8 +123,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle/gradle-01-helloworld/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="735">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -128,10 +147,6 @@
           </key>
           <value>
             <list>
-              <ExternalProjectPojo>
-                <option name="name" value=":gradle-01-helloworld" />
-                <option name="path" value="$PROJECT_DIR$/gradle/gradle-01-helloworld" />
-              </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="gradle" />
                 <option name="path" value="$PROJECT_DIR$/gradle" />
@@ -192,7 +207,7 @@
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'gradle' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'gradle'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -245,11 +260,61 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/gradle/gradle-02-build-script-basics">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':gradle-02-build-script-basics'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':gradle-02-build-script-basics'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':gradle-02-build-script-basics'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':gradle-02-build-script-basics'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':gradle-02-build-script-basics'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="hello" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':gradle-02-build-script-basics'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':gradle-02-build-script-basics'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/gradle" value="4412127338000" />
+        <entry key="$PROJECT_DIR$/gradle" value="2941421071000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -270,6 +335,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/gradle/gradle-01-helloworld" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/gradle/gradle-02-build-script-basics">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -377,10 +449,12 @@
         <option value="$PROJECT_DIR$/groovy-DSL/dsl.groovy" />
         <option value="$PROJECT_DIR$/gradle-sb/build.gradle" />
         <option value="$PROJECT_DIR$/gradle-field/build.gradle" />
-        <option value="$PROJECT_DIR$/gradle/settings.gradle" />
         <option value="$PROJECT_DIR$/gradle/gradle-01-helloworld/README.md" />
         <option value="$PROJECT_DIR$/gradle/gradle-01-helloworld/build.gradle" />
         <option value="$PROJECT_DIR$/gradle/build.gradle" />
+        <option value="$PROJECT_DIR$/gradle/settings.gradle" />
+        <option value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics/README.md" />
+        <option value="$PROJECT_DIR$/gradle/gradle-02-build-script-basics/build.gradle" />
       </list>
     </option>
   </component>
@@ -468,7 +542,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-01-helloworld" />
+              <option name="myItemId" value="gradle-02-build-script-basics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -916,20 +990,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/groovy-gradle_style/gradle_style.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/groovy-DSL/dsl.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/groovy-structure/method.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1188,8 +1248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/gradle-01-helloworld/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="735">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1213,7 +1273,23 @@
     <entry file="file://$PROJECT_DIR$/gradle/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/gradle-02-build-script-basics/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/gradle-02-build-script-basics/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1271,7 +1347,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gradle-01-helloworld|gradle-01-helloworld</last-edited>
+          <last-edited>gradle-02-build-script-basics|gradle-02-build-script-basics</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,18 @@
+task getThreeNumber <<{
+    int[] numbers = getNumbers(3);
+    numbers.each {
+        println "number is $it"
+    }
+}
+
+
+int[] getNumbers(int size){
+
+    def random = new Random()
+
+    int[] numbders = new int[size]
+    for(int i = 0 ; i<size ; i++){
+        numbders[i] = random.nextInt(100)
+    }
+    numbders
+}

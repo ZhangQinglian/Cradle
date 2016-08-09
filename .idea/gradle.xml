@@ -10,7 +10,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/gradle" />
-            <option value="$PROJECT_DIR$/gradle/gradle-01-helloworld" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

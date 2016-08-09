@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Cradle.iml" filepath="$PROJECT_DIR$/Cradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-01-helloworld/gradle-01-helloworld.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-01-helloworld/gradle-01-helloworld.iml" group="gradle-01-helloworld" />
     </modules>
   </component>
 </project>

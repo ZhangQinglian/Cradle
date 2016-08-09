@@ -33,3 +33,4 @@ OK，还是老规矩先看官方是怎么介绍Gradle的：
 
 ### Gradle基础  
 - [Hello world!](https://github.com/ZhangQinglian/Cradle/tree/master/gradle/gradle-01-helloworld)
+- [Project和Task](https://github.com/ZhangQinglian/Cradle/tree/master/gradle/gradle-02-build-script-basics)
